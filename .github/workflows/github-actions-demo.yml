@@ -19,7 +19,7 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - name: Uploads artifact
-      - uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v4
         with:
           name: artefato-texto
           path: ${{ github.workspace }}/teste.txt
