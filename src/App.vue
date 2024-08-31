@@ -5,6 +5,7 @@ import GoodbyeWorld from './components/GoodbyeWorld.vue';
 
 <template>
   <div>
+    <h1>Estou testando o GitHub Actions</h1>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
