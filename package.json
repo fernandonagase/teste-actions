@@ -4,9 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 9001 --host",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "cy:run": "cypress run",
+    "test": "start-server-and-test 'yarn dev' http-get://localhost:9001 'yarn run cy:run'"
   },
   "dependencies": {
     "vue": "^3.4.37"
