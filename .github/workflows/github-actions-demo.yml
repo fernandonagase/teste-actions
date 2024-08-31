@@ -20,6 +20,8 @@ jobs:
           node-version: 20
       - name: Install dependencies
         run: yarn
+      - name: Run E2E tests
+        run: yarn test
       - name: Build Vue Project
         run: yarn build
       - name: Uploads artifact
